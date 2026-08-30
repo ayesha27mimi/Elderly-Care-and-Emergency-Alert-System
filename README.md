@@ -39,6 +39,7 @@ ElderlyCareSystem/
 ├── templates/
 ├── app.py
 ├── requirements.txt
+├── schema.sql
 ├── Project-Report.pdf
 └── screenshots/
 ```
@@ -66,7 +67,7 @@ The full project report (system design, database schema, and detailed functional
 
 3. Set up the MySQL database:
    - Create a new database in MySQL (e.g. `elderlycare_db`).
-   - Import the provided `.sql` schema file (if included in the repo) using MySQL Workbench or the command line:
+   - Import the schema using MySQL Workbench or the command line:
      ```
      mysql -u root -p elderlycare_db < schema.sql
      ```
@@ -87,50 +88,50 @@ The full project report (system design, database schema, and detailed functional
 ### Public Pages
 
 **Home Page**
-![Home Page](screenshots/home-page.png)
+![Home Page](screenshots/home-page.PNG)
 
 **Services Page**
-![Services Page](screenshots/services-page.png)
+![Services Page](screenshots/services-page.PNG)
 
 **About Us Page**
-![About Us Page](screenshots/about-page.png)
+![About Us Page](screenshots/about-page.PNG)
 
 ### Authentication
 
 **Login Page**
-![Login Page](screenshots/login-page.png)
+![Login Page](screenshots/login-page.PNG)
 
 **Sign Up Page**
-![Sign Up Page](screenshots/signup-page.png)
+![Sign Up Page](screenshots/signup-page.PNG)
 
 ### Admin Dashboard
 
 **Dashboard Overview**
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Dashboard](screenshots/admin-dashboard.PNG)
 
 **User Management**
-![User Management](screenshots/user-management.png)
+![User Management](screenshots/user-management.PNG)
 
 **Elderly Residents**
-![Elderly Residents](screenshots/elderly-residents.png)
+![Elderly Residents](screenshots/elderly-residents.PNG)
 
 **Emergency Alerts**
-![Emergency Alerts](screenshots/emergency-alerts.png)
+![Emergency Alerts](screenshots/emergency-alerts.PNG)
 
 ### Elderly Dashboard
 
 **Welcome & Health Status**
-![Elderly Dashboard - Health Status](screenshots/elderly-dashboard-health.png)
+![Elderly Dashboard - Health Status](screenshots/elderly-dashboard-health.PNG)
 
 **Appointments & Medications**
-![Elderly Dashboard - Appointments](screenshots/elderly-dashboard-appointments.png)
+![Elderly Dashboard - Appointments](screenshots/elderly-dashboard-appointments.PNG)
 
 **My Care Team**
-![Elderly Dashboard - Care Team](screenshots/elderly-dashboard-careteam.png)
+![Elderly Dashboard - Care Team](screenshots/elderly-dashboard-careteam.PNG)
 
 ### Doctor Dashboard
 
 **Dashboard Overview**
-![Doctor Dashboard](screenshots/doctor-dashboard.png)
+![Doctor Dashboard](screenshots/doctor-dashboard.PNG)
 
 
